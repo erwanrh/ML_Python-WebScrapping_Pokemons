@@ -42,8 +42,8 @@ for name, url in pokemon_list:
     pokedex_data['name'] = name
     poke_data=poke_data.append(pokedex_data, ignore_index=True)
     #Saving the picture
-    #pic = page2.find('div',{'class':'grid-col span-md-6 span-lg-4 text-center'})
-    #filename, headers = opener.retrieve(pic.find('a').get('href'), 'pokemons/'+name+'.jpg')
+    pic = page2.find('div',{'class':'grid-col span-md-6 span-lg-4 text-center'})
+    filename, headers = opener.retrieve(pic.find('a').get('href'), 'pokemons/'+name+'.jpg')
     
 #%% 
 print(poke_data)
