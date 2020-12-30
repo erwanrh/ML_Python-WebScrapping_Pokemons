@@ -3,7 +3,7 @@
 """
 Created on Tue Dec 29 20:05:52 2020
 
-@author: erwanrahis
+@author: erwanrh
 """
 # WebScrapping on the Pokemon database 
 #%% Libraries
